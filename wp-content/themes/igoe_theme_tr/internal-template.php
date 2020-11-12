@@ -30,10 +30,7 @@ get_header();
     </div>
 
 
-<<<<<<< HEAD
 </section>
-=======
->>>>>>> 03e1c61deb4bcec8ac5a0bad417936f7e904a126
 <!-- http://www.justinaguilar.com/animations/scrolling.html -->
 
 

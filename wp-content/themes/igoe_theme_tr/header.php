@@ -73,7 +73,6 @@ div#userwayAccessibilityIcon.uai.uli {
 			);
 			?>
 		</nav><!-- #site-navigation -->
-<<<<<<< HEAD
 		<?php if(!is_front_page()){ ;?>
 		<a class="header-logo-desktop d-only" href="<?php echo site_url();?>"><img src="<?php echo get_site_url() ;?>/images/svg/logo.svg" alt=""/></a>
 	
@@ -98,9 +97,6 @@ header .header-nav-wrap-d .top-corner-button {
 
 
 
-=======
-		<!-- <a class="header-logo-desktop" href="<?php echo site_url();?>"><img src="<?php echo get_site_url() ;?>/images/logo1-c.png" alt=""/></a> -->
->>>>>>> 03e1c61deb4bcec8ac5a0bad417936f7e904a126
 		<div class="header-nav-wrap-d">
 			<a class=" header-nav-left top-corner-button" href="<?php echo site_url() ;?>/become-a-distributor">BECOME A DISTRIBUTOR</a>
 			<div class="header-nav-right">

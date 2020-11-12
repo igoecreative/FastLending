@@ -471,7 +471,6 @@ sass --watch sass/style.scss style.css
                         }
                     }
                 }
-<<<<<<< HEAD
             }
             @media(min-width:768px) {
                 .header-nav-wrap-d {}
@@ -485,31 +484,9 @@ sass --watch sass/style.scss style.css
                         @media(min-width: 992px) {
                             // position: absolute;
                         }
-=======
-                a {
-                    img {
-                        width: 1.5em;
-                        height: 1.5em;
-                        display: flex;
-                        margin: 0em 0.5em 0.1em;
->>>>>>> 03e1c61deb4bcec8ac5a0bad417936f7e904a126
                     }
                 }
             }
-            @media(min-width:992px) {
-                .header-nav-wrap-d {
-                    justify-content: flex-end;
-                }
-            }
-        }
-    }
-    
-    .internal-heading {
-        h1 {
-            background-color: $light-blue;
-            color: white;
-            padding-left: 1em;
-            margin: 0em;
         }
     }
     
@@ -734,7 +711,6 @@ sass --watch sass/style.scss style.css
                 }
             }
         }
-<<<<<<< HEAD
         /* Contact */
         section.contact {
             .form-container {
@@ -913,9 +889,6 @@ sass --watch sass/style.scss style.css
                 }
             }
         }
-=======
-        /* Internal */
->>>>>>> 03e1c61deb4bcec8ac5a0bad417936f7e904a126
     }
     /* Footer */
     
