@@ -17,7 +17,7 @@
 		
 	<!-- grid item -->
 		<div class="logo-wrap foot-grid-item">
-			<a href="<?php echo site_url() ;?>"><img src="<?php echo site_url();  ;?>/images/logo1-c.png" class="logo"></a>
+			<a href="<?php echo site_url() ;?>"><img src="<?php echo site_url();  ;?>/images/svg/logo.svg" class="logo"></a>
 		</div>
 
 		<!-- grid item -->
@@ -33,10 +33,10 @@
 
 		<!-- grid item -->
 		<div class="policy-menu-wrap foot-grid-item">
-			<a class="d-only" href="<?php echo get_template_directory_uri();?>/sitemap" target="_blank">SITEMAP</a>
-			<a href="<?php echo get_template_directory_uri() ;?>/terms" target="_blank">TERMS</a>
-			<a href="<?php echo get_template_directory_uri() ;?>/privacy-policy" target="_blank">PRIVACY POLICY</a>
-			<a href="<?php echo get_template_directory_uri() ;?>/refund-policy" target="_blank">REFUND POLICY</a>
+			<a class="d-only" href="<?php echo site_url();?>/sitemap" target="_blank">SITEMAP</a>
+			<a href="<?php echo site_url() ;?>/terms" target="_blank">TERMS</a>
+			<a href="<?php echo site_url() ;?>/privacy-policy" target="_blank">PRIVACY POLICY</a>
+			<a href="<?php echo site_url() ;?>/refund-policy" target="_blank">REFUND POLICY</a>
 		</div>
 
 		<!-- grid item -->
@@ -44,15 +44,18 @@
 		
 		<!-- grid item -->
 		<div class="footer-icons foot-grid-item">
- 			<a href="" target="_blank"><img class="fb" src="<?php echo site_url();?>/images/svg/facebook.svg" alt=""/></a>
-			<a href="" target="_blank"><img class="insta" src="<?php echo site_url();?>/images/svg/insta.svg" alt=""/></a>
-			<a href="" target="_blank"><img class="tweet" src="<?php echo site_url();?>/images/svg/tweet.svg" alt=""/></a>
+ 			<a href="" target="_blank"><img class="fb" src="<?php echo site_url();?>/images/facebook.png" alt=""/></a>
+			<a href="" target="_blank"><img class="insta" src="<?php echo site_url();?>/images/insta.png" alt=""/></a>
+			<a href="" target="_blank"><img class="tweet" src="<?php echo site_url();?>/images/tweet.png" alt=""/></a>
 		</div>
 	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script>
+ScrollReveal().reveal('footer', { delay: 500 });
+</script>
 <!-- <script src="js/jquery/dist/jquery.min.js"></script> -->
 <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "jISCXbjEZY");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
 </body>

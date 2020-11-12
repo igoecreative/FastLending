@@ -104,4 +104,19 @@ $(document).ready(function() {
             //Animation Complete.
         });
     });
+
+
+    $('.sub-menu').css('display', 'none');
+    $('.header-nav-d ul li').hover(function() {
+        $(this).children(".sub-menu").slideToggle('slow', function() {
+            //Animation Complete.
+        });
+    });
+
+
+    $('#menu-item-67 a').attr('target', "_blank");
+    $('#menu-item-66 a').attr('target', "_blank");
+
+
+
 });

@@ -30,7 +30,7 @@ get_header();
             $icon_line_heading = get_sub_field('icon_line_heading');
             $icon_line_content = get_sub_field('icon_line_content');
 ?>
-            <div class="icon-line-<?php echo $i;?>">
+            <div class="icon-line icon-line-<?php echo $i;?>">
                 <div class="icon-image-wrap">
                     <img class="m-only" src="<?php echo $icon_line['url'];?>" alt="<?php $icon_line['title'] ;?>">
                     <img class="d-only" src="<?php echo $icon_line_desktop['url'];?>" alt="<?php $icon_line_desktop['title'] ;?>">
@@ -55,7 +55,11 @@ get_header();
 
 
 ;?>
-
+<script>
+ScrollReveal().reveal('.icon-line-1', { delay: 600 });
+ScrollReveal().reveal('.icon-line-2', { delay: 600 });
+ScrollReveal().reveal('.icon-line-3', { delay: 600 });
+</script>
 </section>
 
 

@@ -48,11 +48,11 @@ if ( ! function_exists( 'igoe_theme_tr_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus(
-			array(
-				'menu-1' => esc_html__( 'Primary', 'igoe_theme_tr' ),
-			)
-		);
+		// register_nav_menus(
+		// 	array(
+		// 		'menu-1' => esc_html__( 'Primary', 'igoe_theme_tr' ),
+		// 	)
+		// );
 
 
 
@@ -65,7 +65,8 @@ if ( ! function_exists( 'igoe_theme_tr_setup' ) ) :
 			register_nav_menus(
 			array(
 				'custom_header_nav' => __( 'Custom Header Nav' ),
-				'customer_footer_nav' => __( 'Custom Footer Nav' )
+				'custom_footer_nav' => __( 'Custom Footer Nav' ),
+				'custom_mobile_nav' => __( 'Custom Mobile Nav' )
 			)
 			);
 		}
